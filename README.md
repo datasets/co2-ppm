@@ -27,3 +27,10 @@ Global
 
 ## License
 
+From the [disclaimer and terms of reference][disclaimer]:
+
+> The information on government servers are in the public domain, unless specifically annotated otherwise, and may be used freely by the public so long as you do not 1) claim it is your own (e.g. by claiming copyright for NOAA information – see next paragraph), 2) use it in a manner that implies an endorsement or affiliation with NOAA, or 3) modify it in content and then present it as official government material. You also cannot present information of your own in a way that makes it appear to be official government information.
+
+Given this data is not "specifically annotated otherwise," the Data Package is licensed under the Public Domain Dedication and License (PDDL).
+
+[disclaimer]: http://www.esrl.noaa.gov/gmd/about/disclaimer.html

@@ -1,0 +1,199 @@
+{
+  "name": "co2-ppm",
+  "title": "CO2 ppm - ESRL GMD Trends in Concentration of Atmospheric Carbon Dioxide",
+  "homepage": "http://www.esrl.noaa.gov/gmd/ccgg/trends",
+  "version": "0.1.0",
+  "license": "PDDL-1.0",
+  "sources": [
+    {
+      "name": "ESRL GMD Trends in Concentration of Atmospheric Carbon Dioxide Mauna Loa CO2 Page",
+      "web": "http://www.esrl.noaa.gov/gmd/ccgg/trends/index.html"
+    },
+    {
+      "name": "ESRL GMD Trends in Concentration of Atmospheric Carbon Dioxide Global CO2 Page",
+      "web": "http://www.esrl.noaa.gov/gmd/ccgg/trends/index.html"
+    }
+  ],
+  "resources": [
+    {
+      "name": "co2-mm-mlo",
+      "path": "data/co2-mm-mlo.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "date",
+            "description": ""
+          },
+          {
+            "name": "Month",
+            "type": "date",
+            "description": ""
+          },
+          {
+            "name": "Decimal Date",
+            "type": "date",
+            "description": ""
+          },
+          {
+            "name": "Average",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "Interpolated",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "Trend (Seasonally Corrected)",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "Number of Days",
+            "type": "number",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "co2-annmean-mlo",
+      "path": "data/co2-annmean-mlo.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "date",
+            "description": ""
+          },
+          {
+            "name": "Mean",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "Uncertainty",
+            "type": "number",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "co2-gr-mlo",
+      "path": "data/co2-gr-mlo.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "date",
+            "description": ""
+          },
+          {
+            "name": "Annual Increase",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "Uncertainty",
+            "type": "number",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "co2-mm-gl",
+      "path": "data/co2-mm-gl.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "date",
+            "description": ""
+          },
+          {
+            "name": "Month",
+            "type": "date",
+            "description": ""
+          },
+          {
+            "name": "Decimal Date",
+            "type": "date",
+            "description": ""
+          },
+          {
+            "name": "Average",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "Trend",
+            "type": "number",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "co2-annmean-gl",
+      "path": "data/co2-annmean-gl.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "date",
+            "description": ""
+          },
+          {
+            "name": "Mean",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "Uncertainty",
+            "type": "number",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "co2-gr-gl",
+      "path": "data/co2-gr-gl.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "date",
+            "description": ""
+          },
+          {
+            "name": "Annual Increase",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "Uncertainty",
+            "type": "number",
+            "description": ""
+          }
+        ]
+      }
+    }
+  ]
+}
