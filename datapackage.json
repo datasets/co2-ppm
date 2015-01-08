@@ -43,12 +43,12 @@
             "description": ""
           },
           {
-            "name": "Interpolated",
+            "name": "Interpolated (Seasonally Corrected)",
             "type": "number",
             "description": ""
           },
           {
-            "name": "Trend (Seasonally Corrected)",
+            "name": "Trend",
             "type": "number",
             "description": ""
           },
