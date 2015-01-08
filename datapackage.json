@@ -195,5 +195,17 @@
         ]
       }
     }
+  ],
+  "views": [
+    {
+      "id": "graph",
+      "label": "Graph",
+      "type": "Graph",
+      "state": {
+        "group": "Decimal Date",
+        "series": ["Trend"],
+        "graphType": "lines-and-points"
+      }
+    }
   ]
 }
