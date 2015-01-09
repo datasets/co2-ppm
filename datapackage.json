@@ -45,7 +45,7 @@
           {
             "name": "Trend",
             "type": "number",
-            "description": "Trend values are linearly interpolated for missing months."
+            "description": "Seasonally corrected."
           },
           {
             "name": "Number of Days",
