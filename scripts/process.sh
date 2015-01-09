@@ -53,7 +53,7 @@ mkdir -p data
 for index in "${!files[@]}"; do
   file="${files[$index]}"
   header="${headers[$index]}"
-  # curl ftp://aftp.cmdl.noaa.gov/products/trends/co2/$file > archive/$file
+  curl ftp://aftp.cmdl.noaa.gov/products/trends/co2/$file > archive/$file
   output=`rename $file`
   write_csv_header "${header}" data/$output
   write_csv_content archive/$file data/$output
