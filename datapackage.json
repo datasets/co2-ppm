@@ -48,7 +48,7 @@
             "description": "Values from the average column and interpolated values where data are missing. Interpolated values are computed in two steps. First, we compute for each month the average seasonal cycle in a 7-year window around each monthly value. In this way the seasonal cycle is allowed to change slowly over time. We then determine the trend value for each month by removing the seasonal cycle; this result is shown in the trend column. Trend values are linearly interpolated for missing months. The interpolated monthly mean is then the sum of the average seasonal cycle value and the trend value for the missing month."
           },
           {
-            "name": "Trend (Seasonally Corrected)",
+            "name": "Trend",
             "type": "number",
             "description": "Trend values are linearly interpolated for missing months."
           },
