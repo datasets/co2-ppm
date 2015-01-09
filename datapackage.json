@@ -193,7 +193,7 @@
       "type": "Graph",
       "state": {
         "group": "Date",
-        "series": ["Interpolated"],
+        "series": ["Interpolated, Trend"],
         "graphType": "lines-and-points"
       }
     }
