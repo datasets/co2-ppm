@@ -20,7 +20,8 @@ Mauna Loa:
 * Annual: ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_annmean_mlo.txt
 * Growth rates: ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_gr_mlo.txt
 
-Global
+Global:
+
 * Monthly data: ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_mm_gl.txt
 * Annual data: ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_annmean_gl.txt
 * Growth rates: ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_gr_gl.txt
