@@ -40,22 +40,22 @@
           {
             "name": "Average",
             "type": "number",
-            "description": ""
+            "description": "The monthly mean CO2 mole fraction determined from daily averages. If there are missing days concentrated either early or late in the month, the monthly mean is corrected to the middle of the month using the average seasonal cycle. Missing months are denoted by -99.99."
           },
           {
-            "name": "Interpolated (Seasonally Corrected)",
+            "name": "Interpolated",
             "type": "number",
-            "description": ""
+            "description": "Values from the average column and interpolated values where data are missing. Interpolated values are computed in two steps. First, we compute for each month the average seasonal cycle in a 7-year window around each monthly value. In this way the seasonal cycle is allowed to change slowly over time. We then determine the trend value for each month by removing the seasonal cycle; this result is shown in the trend column. Trend values are linearly interpolated for missing months. The interpolated monthly mean is then the sum of the average seasonal cycle value and the trend value for the missing month."
           },
           {
             "name": "Trend",
             "type": "number",
-            "description": ""
+            "description": "Trend values are linearly interpolated for missing months."
           },
           {
             "name": "Number of Days",
             "type": "number",
-            "description": ""
+            "description": "-1 denotes no data for number of daily averages in the month."
           }
         ]
       }
@@ -80,7 +80,7 @@
           {
             "name": "Uncertainty",
             "type": "number",
-            "description": ""
+            "description": "The estimated uncertainty in the annual mean is the standard deviation of the differences of annual mean values determined independently by NOAA/ESRL and the Scripps Institution of Oceanography."
           }
         ]
       }
@@ -100,12 +100,12 @@
           {
             "name": "Annual Increase",
             "type": "number",
-            "description": ""
+            "description": "Annual CO2 mole fraction increase (ppm) from Jan 1 through Dec 31."
           },
           {
             "name": "Uncertainty",
             "type": "number",
-            "description": ""
+            "description": "Estimated from the standard deviation of the differences between monthly mean values determined independently by the Scripps Institution of Oceanography and by NOAA/ESRL."
           }
         ]
       }
@@ -165,7 +165,7 @@
           {
             "name": "Uncertainty",
             "type": "number",
-            "description": ""
+            "description": "The uncertainty in the global annual mean is estimated using a monte carlo technique that computes 100 global annual averages, each time using a slightly different set of measurement records from the NOAA ESRL cooperative air sampling network.  The reported uncertainty is the mean of the standard deviations for each annual average using this technique. Please see Conway et al., 1994, JGR, vol. 99, no. D11. for a complete discussion."
           }
         ]
       }
@@ -185,12 +185,12 @@
           {
             "name": "Annual Increase",
             "type": "number",
-            "description": ""
+            "description": "Annual CO2 mole fraction increase (ppm) from Jan 1 through Dec 31."
           },
           {
             "name": "Uncertainty",
             "type": "number",
-            "description": ""
+            "description": "The uncertainty in the global annual mean growth rate is estimated using a monte carlo technique that computes 100 time series of global annual growth rates, each time using measurement records from a different sampling of sites from the NOAA ESRL cooperative air sampling network. Each year has a different uncertainty. Please see Conway et al., 1994, JGR, vol. 99, no. D11. for a complete discussion. The last one or two years listed could have preliminary uncertainties set equal to the average uncertainty since 1980. Before 1980 the global growth rate has been approximated by taking the average of Mauna Loa and the South Pole, correcting for the offset between (MLO+SPO)/2 and the global Marine Boundary Layer, as described in Ballantyne et al, 2012."
           }
         ]
       }
