@@ -23,14 +23,9 @@
       "schema": {
         "fields": [
           {
-            "name": "Year",
+            "name": "Date",
             "type": "date",
-            "description": ""
-          },
-          {
-            "name": "Month",
-            "type": "date",
-            "description": ""
+            "description": "YYYY-MM"
           },
           {
             "name": "Decimal Date",
@@ -118,14 +113,9 @@
       "schema": {
         "fields": [
           {
-            "name": "Year",
+            "name": "Date",
             "type": "date",
-            "description": ""
-          },
-          {
-            "name": "Month",
-            "type": "date",
-            "description": ""
+            "description": "YYYY-MM"
           },
           {
             "name": "Decimal Date",
@@ -202,7 +192,7 @@
       "label": "Graph",
       "type": "Graph",
       "state": {
-        "group": "Year",
+        "group": "Date",
         "series": ["Trend"],
         "graphType": "lines-and-points"
       }
