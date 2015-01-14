@@ -1,6 +1,6 @@
 {
   "name": "co2-ppm",
-  "title": "CO2 ppm - ESRL GMD Trends in Concentration of Atmospheric Carbon Dioxide",
+  "title": "CO2 PPM - Concentration of Atmospheric Carbon Dioxide Over Time",
   "homepage": "http://www.esrl.noaa.gov/gmd/ccgg/trends",
   "version": "0.1.0",
   "license": "PDDL-1.0",
