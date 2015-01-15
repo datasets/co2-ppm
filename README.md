@@ -26,6 +26,18 @@ Global:
 * Annual data: ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_annmean_gl.txt
 * Growth rates: ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_gr_gl.txt
 
+## Preparation
+
+The data is prepared with a Bash script.
+
+Run the following script to download and convert the data from text to CSV:
+
+```shell
+. scripts/process.sh
+```
+
+The raw text files are stored in `./archive`. The cleaned data are in `./data`.
+
 ## License
 
 From the [disclaimer and terms of reference][disclaimer]:
