@@ -1,49 +1,48 @@
-Trends in Concentration of Atmospheric Carbon Dioxide (CO2 ppm). Data is sourced from US Government's [Earth System Research Laboratory, Global Monitoring Division][home]. Two main series are provided: the Mauna Loa series (which has the longest continuous series since 1958) and a Global Average series (a global average over marine surface sites).
-
-[home]: http://www.esrl.noaa.gov/gmd/ccgg/trends/index.html
+CO2 PPM - Trends in Atmospheric Carbon Dioxide. Data are sourced from the US Government's Earth System Research Laboratory, Global Monitoring Division. Two main series are provided: the Mauna Loa series (which has the longest continuous series since 1958) and a Global Average series (a global average over marine surface sites).
 
 ## Data
 
-From the [site][home]:
+### Description
 
-> Data are reported as a dry air mole fraction defined as the number of molecules of carbon dioxide divided by the number of all molecules in air, including CO2 itself, after water vapor has been removed. The mole fraction is expressed as parts per million (ppm). Example: 0.000400 is expressed as 400 ppm.
+> Data are reported as a dry air mole fraction defined as the number of molecules of carbon dioxide divided by the number of all molecules in air, including CO2 itself, after water vapor has been removed. The mole fraction is expressed as parts per million (ppm). Example: 0.000400 is expressed as 400 ppm.[*][ccgg-trends]
 
-Citation:
+### Citations
 
-Mauna Loa data: *Dr. Pieter Tans, NOAA/ESRL (www.esrl.noaa.gov/gmd/ccgg/trends/) and Dr. Ralph Keeling, Scripps Institution of Oceanography (scrippsco2.ucsd.edu/).*
-Global data: *Ed Dlugokencky and Pieter Tans, NOAA/ESRL (www.esrl.noaa.gov/gmd/ccgg/trends/)*
+1. *Trends in Atmospheric Carbon Dioxide, Mauna Loa, Hawaii.* Dr. Pieter Tans, NOAA/ESRL (www.esrl.noaa.gov/gmd/ccgg/trends/) and Dr. Ralph Keeling, Scripps Institution of Oceanography (scrippsco2.ucsd.edu/).
+1. *Trends in Atmospheric Carbon Dioxide, Global.* Ed Dlugokencky and Pieter Tans, NOAA/ESRL (www.esrl.noaa.gov/gmd/ccgg/trends/).
 
+### Sources
 
-Mauna Loa:
+1. * Name: Trends in Atmospheric Carbon Dioxide, Mauna Loa, Hawaii
+   * Web: http://www.esrl.noaa.gov/gmd/ccgg/trends/index.html
+1. * Name: Trends in Atmospheric Carbon Dioxide, Global
+   * Web: http://www.esrl.noaa.gov/gmd/ccgg/trends/global.html
 
-* Monthly: ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_mm_mlo.txt
-* Annual: ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_annmean_mlo.txt
-* Growth rates: ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_gr_mlo.txt
+## Data Preparation
 
-Global:
+### Processing
 
-* Monthly data: ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_mm_gl.txt
-* Annual data: ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_annmean_gl.txt
-* Growth rates: ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_gr_gl.txt
+Run the following script from this directory to download and process the data:
 
-## Preparation
-
-The data is prepared with a Bash script.
-
-Run the following script to download and convert the data from text to CSV:
-
-```shell
-. scripts/process.sh
+```bash
+make data
 ```
 
-The raw text files are stored in `./archive`. The cleaned data are in `./data`.
+### Resources
+
+The raw data are output to `./tmp`. The processed data are output to `./data`.
 
 ## License
 
-From the [disclaimer and terms of reference][disclaimer]:
+### ODC-PDDL-1.0
 
-> The information on government servers are in the public domain, unless specifically annotated otherwise, and may be used freely by the public so long as you do not 1) claim it is your own (e.g. by claiming copyright for NOAA information – see next paragraph), 2) use it in a manner that implies an endorsement or affiliation with NOAA, or 3) modify it in content and then present it as official government material. You also cannot present information of your own in a way that makes it appear to be official government information.
+This Data Package is made available under the Public Domain Dedication and License v1.0 whose full text can be found at: http://www.opendatacommons.org/licenses/pddl/1.0/
 
-Given this data is not "specifically annotated otherwise," the Data Package is licensed under the Public Domain Dedication and License (PDDL).
+### Notes
 
-[disclaimer]: http://www.esrl.noaa.gov/gmd/about/disclaimer.html
+The [terms of use][gmd] of the source dataset list three specific restrictions on public use of these data:
+
+> The information on government servers are in the public domain, unless specifically annotated otherwise, and may be used freely by the public so long as you do not 1) claim it is your own (e.g. by claiming copyright for NOAA information – see next paragraph), 2) use it in a manner that implies an endorsement or affiliation with NOAA, or 3) modify it in content and then present it as official government material.[*][gmd]
+
+[ccgg-trends]: http://www.esrl.noaa.gov/gmd/ccgg/trends/index.html
+[gmd]: http://www.esrl.noaa.gov/gmd/about/disclaimer.html
