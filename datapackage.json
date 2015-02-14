@@ -7,11 +7,11 @@
   "license": "ODC-PDDL-1.0",
   "sources": [
     {
-      "name": "ESRL GMD Trends in Concentration of Atmospheric Carbon Dioxide Mauna Loa CO2 Page",
+      "name": "Trends in Atmospheric Carbon Dioxide, Mauna Loa, Hawaii",
       "web": "http://www.esrl.noaa.gov/gmd/ccgg/trends/index.html"
     },
     {
-      "name": "ESRL GMD Trends in Concentration of Atmospheric Carbon Dioxide Global CO2 Page",
+      "name": "Trends in Atmospheric Carbon Dioxide, Global",
       "web": "http://www.esrl.noaa.gov/gmd/ccgg/trends/global.html"
     }
   ],
