@@ -13,10 +13,12 @@ CO2 PPM - Trends in Atmospheric Carbon Dioxide. Data are sourced from the US Gov
 
 ### Sources
 
-1. * Name: Trends in Atmospheric Carbon Dioxide, Mauna Loa, Hawaii
-   * Web: http://www.esrl.noaa.gov/gmd/ccgg/trends/index.html
-1. * Name: Trends in Atmospheric Carbon Dioxide, Global
-   * Web: http://www.esrl.noaa.gov/gmd/ccgg/trends/global.html
+1. 
+  * Name: Trends in Atmospheric Carbon Dioxide, Mauna Loa, Hawaii
+  * Web: http://www.esrl.noaa.gov/gmd/ccgg/trends/index.html
+1. 
+  * Name: Trends in Atmospheric Carbon Dioxide, Global
+  * Web: http://www.esrl.noaa.gov/gmd/ccgg/trends/global.html
 
 ## Data Preparation
 
