@@ -26,7 +26,7 @@
           {
             "name": "Date",
             "type": "date",
-            "description": "YYYY-MM"
+            "description": "YYYY-MM-DD"
           },
           {
             "name": "Decimal Date",
@@ -116,7 +116,7 @@
           {
             "name": "Date",
             "type": "date",
-            "description": "YYYY-MM"
+            "description": "YYYY-MM-DD"
           },
           {
             "name": "Decimal Date",
