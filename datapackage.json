@@ -120,7 +120,7 @@
           },
           {
             "name": "Decimal Date",
-            "type": "date",
+            "type": "number",
             "description": ""
           },
           {
