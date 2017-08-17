@@ -189,13 +189,16 @@
   ],
   "views": [
     {
-      "id": "graph",
-      "label": "Graph",
-      "type": "Graph",
-      "state": {
+      "name": "graph",
+      "title": "Trends in Atmospheric Carbon Dioxide",
+      "specType": "simple",
+      "spec": {
+        "type": "lines-and-points",
         "group": "Date",
-        "series": ["Interpolated", "Trend"],
-        "graphType": "lines-and-points"
+        "series": [
+          "Interpolated",
+          "Trend"
+        ]
       }
     }
   ]
