@@ -8,11 +8,13 @@
   "sources": [
     {
       "name": "Trends in Atmospheric Carbon Dioxide, Mauna Loa, Hawaii",
-      "web": "http://www.esrl.noaa.gov/gmd/ccgg/trends/index.html"
+      "web": "http://www.esrl.noaa.gov/gmd/ccgg/trends/index.html",
+      "title": "Trends in Atmospheric Carbon Dioxide, Mauna Loa, Hawaii"
     },
     {
       "name": "Trends in Atmospheric Carbon Dioxide, Global",
-      "web": "http://www.esrl.noaa.gov/gmd/ccgg/trends/global.html"
+      "web": "http://www.esrl.noaa.gov/gmd/ccgg/trends/global.html",
+      "title": "Trends in Atmospheric Carbon Dioxide, Global"
     }
   ],
   "resources": [
@@ -26,7 +28,8 @@
           {
             "name": "Date",
             "type": "date",
-            "description": "YYYY-MM-DD"
+            "description": "YYYY-MM-DD",
+            "format": "any"
           },
           {
             "name": "Decimal Date",
@@ -66,7 +69,8 @@
           {
             "name": "Year",
             "type": "date",
-            "description": ""
+            "description": "",
+            "format": "any"
           },
           {
             "name": "Mean",
@@ -91,7 +95,8 @@
           {
             "name": "Year",
             "type": "date",
-            "description": ""
+            "description": "",
+            "format": "any"
           },
           {
             "name": "Annual Increase",
@@ -116,7 +121,8 @@
           {
             "name": "Date",
             "type": "date",
-            "description": "YYYY-MM-DD"
+            "description": "YYYY-MM-DD",
+            "format": "any"
           },
           {
             "name": "Decimal Date",
@@ -146,7 +152,8 @@
           {
             "name": "Year",
             "type": "date",
-            "description": ""
+            "description": "",
+            "format": "any"
           },
           {
             "name": "Mean",
@@ -171,7 +178,8 @@
           {
             "name": "Year",
             "type": "date",
-            "description": ""
+            "description": "",
+            "format": "any"
           },
           {
             "name": "Annual Increase",
