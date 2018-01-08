@@ -20,7 +20,7 @@ CO2 PPM - Trends in Atmospheric Carbon Dioxide. Data are sourced from the US Gov
   * Name: Trends in Atmospheric Carbon Dioxide, Global
   * Web: http://www.esrl.noaa.gov/gmd/ccgg/trends/global.html
 
-## Data Preparation
+## Preparation
 
 ### Processing
 
