@@ -4,16 +4,22 @@
   "description": "Data are sourced from the US Government's Earth System Research Laboratory, Global Monitoring Division. Two main series are provided: the Mauna Loa series (which has the longest continuous series since 1958) and a Global Average series (a global average over marine surface sites).",
   "homepage": "http://www.esrl.noaa.gov/gmd/ccgg/trends",
   "version": "0.1.0",
-  "license": "ODC-PDDL-1.0",
+  "licenses": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0"
+    }
+  ],
   "sources": [
     {
       "name": "Trends in Atmospheric Carbon Dioxide, Mauna Loa, Hawaii",
-      "web": "http://www.esrl.noaa.gov/gmd/ccgg/trends/index.html",
+      "path": "http://www.esrl.noaa.gov/gmd/ccgg/trends/index.html",
       "title": "Trends in Atmospheric Carbon Dioxide, Mauna Loa, Hawaii"
     },
     {
       "name": "Trends in Atmospheric Carbon Dioxide, Global",
-      "web": "http://www.esrl.noaa.gov/gmd/ccgg/trends/global.html",
+      "path": "http://www.esrl.noaa.gov/gmd/ccgg/trends/global.html",
       "title": "Trends in Atmospheric Carbon Dioxide, Global"
     }
   ],
