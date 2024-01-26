@@ -2,6 +2,7 @@ name: Update Data from NOAA
 on:
   schedule:
     - cron: "0 0 1 * *"
+  workflow_dispatch:
 jobs:
   update-data:
     runs-on: ubuntu-latest
