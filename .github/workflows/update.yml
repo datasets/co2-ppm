@@ -10,7 +10,7 @@ jobs:
       - name: Check Out
         uses: actions/checkout@v4
       - name: Update Data
-        run: "sh ./scripts/process.sh"
+        run: "./scripts/process.sh"
       - name: Commit and Push Data
         uses: EndBug/add-and-commit@v9
         with:
