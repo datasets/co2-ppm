@@ -27,12 +27,14 @@ CO2 PPM - Trends in Atmospheric Carbon Dioxide. Data are sourced from the US Gov
 Run the following script from this directory to download and process the data:
 
 ```bash
-make data
+./scripts/process.sh
 ```
+
+Most likely works for Unix systems only. (Not Windows compatible)
 
 ### Resources
 
-The raw data are output to `./tmp`. The processed data are output to `./data`.
+The raw data is output to `./tmp`. (Not committed to the repository, you'll have to clone and run locally) The processed data is output to `./data`.
 
 ## License
 
