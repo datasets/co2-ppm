@@ -205,7 +205,9 @@
     {
       "name": "graph",
       "title": "Trends in Atmospheric Carbon Dioxide",
-      "resources": ["co2-mm-mlo"],
+      "resources": [
+        "co2-mm-mlo"
+      ],
       "specType": "simple",
       "spec": {
         "type": "lines-and-points",
@@ -219,7 +221,9 @@
     {
       "name": "growth-rate",
       "title": "Growth rate of Carbon Dioxide",
-      "resources": ["co2-gr-mlo"],
+      "resources": [
+        "co2-gr-mlo"
+      ],
       "specType": "simple",
       "spec": {
         "type": "bar",
@@ -229,5 +233,6 @@
         ]
       }
     }
-  ]
+  ],
+  "collection": "climate-change"
 }
