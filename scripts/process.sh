@@ -53,7 +53,11 @@ mkdir -p data
 for index in "${!files[@]}"; do
   file="${files[$index]}"
   header="${headers[$index]}"
-  curl ftp://aftp.cmdl.noaa.gov/products/trends/co2/$file > tmp/$file
+  curl --fail --silent --show-error --location ftp://aftp.cmdl.noaa.gov/products/trends/co2/$file -o tmp/$file
+  if [ ! -s "tmp/$file" ]; then
+    echo "Download failed or empty file: $file" >&2
+    exit 1
+  fi
   output=`rename $file`
   write_csv_header "${header}" data/$output
   write_csv_content tmp/$file data/$output
