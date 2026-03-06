@@ -74,7 +74,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "date",
+            "type": "year",
             "description": "",
             "format": "any"
           },
@@ -100,7 +100,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "date",
+            "type": "year",
             "description": "",
             "format": "any"
           },
@@ -157,7 +157,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "date",
+            "type": "year",
             "description": "",
             "format": "any"
           },
@@ -183,7 +183,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "date",
+            "type": "year",
             "description": "",
             "format": "any"
           },
@@ -210,11 +210,11 @@
       ],
       "specType": "simple",
       "spec": {
-        "type": "lines-and-points",
+        "type": "line",
         "group": "Date",
         "series": [
-          "Interpolated",
-          "Trend"
+          "Average",
+          "Interpolated"
         ]
       }
     },
@@ -226,7 +226,7 @@
       ],
       "specType": "simple",
       "spec": {
-        "type": "bar",
+        "type": "line",
         "group": "Year",
         "series": [
           "Annual Increase"
