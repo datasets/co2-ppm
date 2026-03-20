@@ -203,6 +203,48 @@
   ],
   "views": [
     {
+      "name": "keeling-curve",
+      "title": "Keeling Curve — Atmospheric CO₂ at Mauna Loa (1959–present)",
+      "description": "Annual mean CO₂ concentration measured at Mauna Loa Observatory, Hawaii — the longest continuous record of atmospheric CO₂. Concentrations have risen from 316 ppm in 1959 to over 420 ppm today. The 350 ppm line marks the level many scientists consider the safe upper limit; 400 ppm was first crossed in 2013.",
+      "resources": ["co2-annmean-mlo"],
+      "specType": "plot",
+      "spec": {
+        "height": 400,
+        "marginLeft": 60,
+        "x": { "label": "Year", "tickFormat": ".0f" },
+        "y": { "label": "CO₂ Concentration (ppm)", "grid": true },
+        "marks": [
+          {
+            "type": "ruleY",
+            "staticData": [{ "y": 350 }],
+            "y": "y", "stroke": "#16a34a", "strokeDasharray": "4,4", "tip": false
+          },
+          {
+            "type": "ruleY",
+            "staticData": [{ "y": 400 }],
+            "y": "y", "stroke": "#dc2626", "strokeDasharray": "4,4", "tip": false
+          },
+          {
+            "type": "text",
+            "staticData": [{ "x": 1960, "y": 352, "label": "350 ppm (safe limit)" }],
+            "x": "x", "y": "y", "text": "label",
+            "fill": "#16a34a", "fontSize": 11, "textAnchor": "start"
+          },
+          {
+            "type": "text",
+            "staticData": [{ "x": 1960, "y": 402, "label": "400 ppm (crossed 2013)" }],
+            "x": "x", "y": "y", "text": "label",
+            "fill": "#dc2626", "fontSize": 11, "textAnchor": "start"
+          },
+          {
+            "type": "line",
+            "x": "Year", "y": "Mean",
+            "stroke": "#0369a1", "strokeWidth": 2, "tip": true
+          }
+        ]
+      }
+    },
+    {
       "name": "graph",
       "title": "Trends in Atmospheric Carbon Dioxide",
       "resources": [
