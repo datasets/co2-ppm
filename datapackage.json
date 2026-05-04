@@ -63,7 +63,8 @@
             "description": "-1 denotes no data for number of daily averages in the month."
           }
         ]
-      }
+      },
+      "description": "Monthly mean atmospheric CO2 concentration in parts per million (ppm) measured at Mauna Loa Observatory, Hawaii since 1958, including raw average, interpolated values, and seasonally-corrected trend."
     },
     {
       "name": "co2-annmean-mlo",
@@ -89,7 +90,8 @@
             "description": "The estimated uncertainty in the annual mean is the standard deviation of the differences of annual mean values determined independently by NOAA/ESRL and the Scripps Institution of Oceanography."
           }
         ]
-      }
+      },
+      "description": "Annual mean atmospheric CO2 concentration in ppm at Mauna Loa Observatory, Hawaii since 1958, with uncertainty estimates."
     },
     {
       "name": "co2-gr-mlo",
@@ -115,7 +117,8 @@
             "description": "Estimated from the standard deviation of the differences between monthly mean values determined independently by the Scripps Institution of Oceanography and by NOAA/ESRL."
           }
         ]
-      }
+      },
+      "description": "Annual growth rate of atmospheric CO2 concentration in ppm at Mauna Loa Observatory, Hawaii since 1959, with uncertainty estimates."
     },
     {
       "name": "co2-mm-gl",
@@ -146,7 +149,8 @@
             "description": ""
           }
         ]
-      }
+      },
+      "description": "Monthly mean global average atmospheric CO2 concentration in ppm across marine surface sites since 1980, including raw average and seasonally-corrected trend."
     },
     {
       "name": "co2-annmean-gl",
@@ -172,7 +176,8 @@
             "description": "The uncertainty in the global annual mean is estimated using a monte carlo technique that computes 100 global annual averages, each time using a slightly different set of measurement records from the NOAA ESRL cooperative air sampling network.  The reported uncertainty is the mean of the standard deviations for each annual average using this technique. Please see Conway et al., 1994, JGR, vol. 99, no. D11. for a complete discussion."
           }
         ]
-      }
+      },
+      "description": "Annual mean global average atmospheric CO2 concentration in ppm across marine surface sites since 1980, with uncertainty estimates."
     },
     {
       "name": "co2-gr-gl",
@@ -198,7 +203,8 @@
             "description": "The uncertainty in the global annual mean growth rate is estimated using a monte carlo technique that computes 100 time series of global annual growth rates, each time using measurement records from a different sampling of sites from the NOAA ESRL cooperative air sampling network. Each year has a different uncertainty. Please see Conway et al., 1994, JGR, vol. 99, no. D11. for a complete discussion. The last one or two years listed could have preliminary uncertainties set equal to the average uncertainty since 1980. Before 1980 the global growth rate has been approximated by taking the average of Mauna Loa and the South Pole, correcting for the offset between (MLO+SPO)/2 and the global Marine Boundary Layer, as described in Ballantyne et al, 2012."
           }
         ]
-      }
+      },
+      "description": "Annual growth rate of global average atmospheric CO2 concentration in ppm since 1980, with uncertainty estimates."
     }
   ],
   "views": [
