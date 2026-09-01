@@ -1,4 +1,4 @@
-Date,Decimal Date,Average,Interpolated,Trend,Number of Days
+Date,Decimal Date,Monthly Average,Deseasonalized,#days,stddev of days,unc. of monthly mean
 1958-03,1958.2027,315.71,314.44,-01,-9.99,-0.99
 1958-04,1958.2877,317.45,315.16,-01,-9.99,-0.99
 1958-05,1958.3699,317.51,314.69,-01,-9.99,-0.99

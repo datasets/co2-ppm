@@ -2,7 +2,7 @@
 
 #Mauna Loa monthly data
 files[0]='co2_mm_mlo.txt'
-headers[0]='Date,Decimal Date,Average,Interpolated,Trend,Number of Days'
+headers[0]='Date,Decimal Date,Monthly Average,Deseasonalized,#days,stddev of days,unc. of monthly mean'
 # Mauna Loa annual data
 files[1]='co2_annmean_mlo.txt'
 headers[1]='Year,Mean,Uncertainty'
@@ -11,7 +11,7 @@ files[2]='co2_gr_mlo.txt'
 headers[2]='Year,Annual Increase,Uncertainty'
 # global monthly data
 files[3]='co2_mm_gl.txt'
-headers[3]='Date,Decimal Date,Average,Trend'
+headers[3]='Date,Decimal Date,Average,Average Uncertainty,Trend,Trend Uncertainty'
 #global annual data
 files[4]='co2_annmean_gl.txt'
 headers[4]='Year,Mean,Uncertainty'

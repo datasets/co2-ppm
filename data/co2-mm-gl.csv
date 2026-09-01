@@ -1,4 +1,4 @@
-Date,Decimal Date,Average,Trend
+Date,Decimal Date,Average,Average Uncertainty,Trend,Trend Uncertainty
 1979-01,1979.042,336.56,0.11,335.92,0.09
 1979-02,1979.125,337.29,0.09,336.26,0.09
 1979-03,1979.208,337.88,0.11,336.51,0.09
